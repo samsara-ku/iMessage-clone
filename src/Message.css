@@ -5,7 +5,6 @@
   align-items: center;
   width: fit-content;
   margin: 10px;
-  margin-right: auto;
 }
 
 .message > p {
@@ -21,6 +20,28 @@
   color: gray;
   position: absolute;
   font-size: 8px;
-  bottom: -5px;
+  bottom: -8px;
   white-space: nowrap;
+}
+
+.message__sender {
+  margin-left: auto;
+}
+
+.message__sender > .message__photo {
+  order: 1;
+  margin: 15px;
+}
+
+.message__photo {
+  order: 0;
+}
+
+.message__sender > small {
+  right: 0;
+}
+
+.message__sender > p {
+  background-color: #3cabfa;
+  color: white;
 }

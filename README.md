@@ -1,7 +1,5 @@
 # iMessage Clone Project
 
----
-
 ### Short Info.
 
 - Who: Me
